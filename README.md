@@ -44,16 +44,16 @@ Bienvenido al repositorio oficial de distribución y descarga de **Fiscus Financ
 * **Modo Interfaz:** Flujo 100% automatizado que extrae datos normativos y ejecuta los cálculos al instante bajo el criterio de *decisión primero, análisis después*.
 * **Modo Analista:** Entorno interactivo con control total para editar premisas, tasas de descuento, márgenes operativos y someter los activos a pruebas de estrés personalizadas.
 
-### 4. Transparencia Radical y Cero Cajas Negras
+### 4. Transparencia Analítica y Trazabilidad Matemática
 * **Tooltips Didácticos:** Información conceptual, fórmulas y significado económico al posar el cursor sobre cualquier métrica.
 * **Trazabilidad Matemática:** Panel de auditoría que desglosa paso a paso las fórmulas, insumos y procedimientos aritméticos exactos al hacer doble clic sobre cualquier cifra.
-* **Módulos Transversales:** Análisis técnico integrado, comparación de hasta **10 activos en simultáneo** y optimización de carteras mediante la **frontera eficiente de Markowitz**.
+* **Módulos Transversales:** Análisis técnico integrado, comparación de hasta **10 activos en simultáneo**, optimización de carteras mediante la **frontera eficiente de Markowitz** (`Fiscus Quant Engine`) y bóveda consolidada multi-activo (`Fiscus Portfolio Check`).
 
 ---
 
 ## 🤖 Inteligencia Artificial Imperator
 
-**Imperator IA** actúa como la capa de gobernanza y especialización financiera de Fiscus Finance Suite. No es un chatbot genérico, sino un orquestador que administra múltiples cerebros intercambiables:
+**Imperator IA** actúa como la capa de gobernanza y especialización financiera de Fiscus Finance Suite. Opera mediante una arquitectura colegiada multi-agente (*The Royal Court*) compatible con los principales proveedores de inferencia (**OpenAI, Google Gemini, Groq y Grok**):
 
 * **Cerebro de Inferencia Ultrarrápida:** Diagnósticos complejos procesados en fracciones de segundo.
 * **Cerebros de Razonamiento Avanzado:** Síntesis de grandes volúmenes de contexto, lectura documental y enlace con noticias macroeconómicas mundiales.
@@ -80,7 +80,7 @@ Bienvenido al repositorio oficial de distribución y descarga de **Fiscus Financ
 
 1. Dirígete a la sección de **[Releases](https://github.com/TU_USUARIO/TU_REPO/releases)** de este repositorio y elige tu formato de descarga:
    * **Instalador Automático (`.exe`):** Recomendado para la mayoría de usuarios (crea accesos directos y desinstalador).
-   * **Versión Portable (`.zip`):** Ideal para entornos corporativos o bancarios sin permisos de administrador (extraer en una carpeta local de tu **SSD** y ejecutar `FiscusFinanceSuite.exe`).
+   * **Versión Portable (`.zip`):** Ideal para entornos corporativos o bancarios sin permisos de administrador (extraer en una carpeta de tu **SSD** y ejecutar `FiscusFinanceSuite.exe`).
 2. Si aparece el aviso preventivo de **Windows SmartScreen**, haz clic en **"Más información"** y luego en **"Ejecutar de todas formas"**.
 3. Abre **Fiscus Finance Suite** e inicia sesión con las credenciales creadas en **[fiscusfinancesuite.com](https://fiscusfinancesuite.com)** para activar tu prueba gratuita de 30 días.
 
@@ -98,7 +98,7 @@ Fiscus_Finance_Suite_Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /FO
 start "" "%LOCALAPPDATA%\Programs\Fiscus Finance Suite\FiscusFinanceSuite.exe"
 ```
 
-* Desbloquea el certificado de descarga local (`Zone.Identifier`), instala la suite de forma desatendida en `%LOCALAPPDATA%\Programs\Fiscus Finance Suite`, genera los accesos directos en el Escritorio y ejecuta la aplicación automáticamente.
+* Elimina el bloqueo de descarga de Windows (`Zone.Identifier`), instala la suite de forma desatendida en `%LOCALAPPDATA%\Programs\Fiscus Finance Suite`, genera los accesos directos en el Escritorio y ejecuta la aplicación automáticamente.
 </details>
 
 > [!TIP]

